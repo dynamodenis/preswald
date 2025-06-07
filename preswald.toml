@@ -1,0 +1,20 @@
+[project]
+title = "Queens Sports Data Analysis Project"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Queens Sports Data Analysis Project"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#246EB9"
+
+[data.sports]
+type = "csv"
+path = "data/sports.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
